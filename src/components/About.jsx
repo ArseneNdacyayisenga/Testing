@@ -31,7 +31,7 @@ const About = () => {
               <div className="w-80 h-80 bg-gradient-to-br from-teal-400 to-blue-600 rounded-2xl shadow-2xl"></div>
               <div className="absolute inset-4 bg-gray-100 rounded-2xl flex items-center justify-center border-4 border-white shadow-inner">
                 <img
-                  src="/image/image.jpg"
+                  src="/src/assets/image.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover rounded-2xl block"
                 />
