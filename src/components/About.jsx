@@ -30,15 +30,11 @@ const About = () => {
             <div className="relative">
               <div className="w-80 h-80 bg-gradient-to-br from-teal-400 to-blue-600 rounded-2xl shadow-2xl"></div>
               <div className="absolute inset-4 bg-gray-100 rounded-2xl flex items-center justify-center border-4 border-white shadow-inner">
-                <div className="text-center">
-                  <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-gray-500 text-sm">Photo</span>
-                  </div>
-                  <p className="text-gray-500 text-sm">
-                    Add your photo here<br />
-                    /image/image.png
-                  </p>
-                </div>
+                <img
+                  src="/image/image.jpg"
+                  alt="Profile"
+                  className="w-full h-full object-cover rounded-2xl block"
+                />
               </div>
             </div>
           </div>
